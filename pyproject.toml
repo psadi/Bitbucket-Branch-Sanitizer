@@ -1,0 +1,29 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "psadi",email = "ps.adithya@proton.me"},
+]
+dependencies = [
+    "asyncio>=3.4.3",
+    "datetime>=5.2",
+    "jinja2>=3.1.2",
+    "requests>=2.31.0",
+    "logging>=0.4.9.6",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "GPLv3"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.0.280",
+    "black>=23.3.0",
+    "isort>=5.11.5",
+    "bandit>=1.7.5",
+    "pre-commit>=2.21.0",
+]
+
+[tool.ruff]
+ignore = ["E501"]

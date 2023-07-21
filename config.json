@@ -1,0 +1,11 @@
+{
+    "url": "https://bitbucket.<your_org>.com",
+    "branches_to_exclude": [],
+    "thresholds":{
+        "release": 30,
+        "hotfix": 30,
+        "feature": 40,
+        "bugfix": 40,
+        "default": 40
+    }
+}
